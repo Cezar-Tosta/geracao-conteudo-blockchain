@@ -34,12 +34,12 @@ Este projeto utiliza a LLM **LLaMA 3 - 70B** via **LangChain + Groq** para gerar
 
 ## 📌 Exemplo de Uso
 **Selecione**:
-- Tópico: Smart Contracts na Ethereum
+- Tópico Blockchain: Smart Contracts na Ethereum
 - Canal de distribuição: LinkedIn
-- Tom: Técnico
-- Profundidade: Explicativo
-- Público-alvo: Desenvolvedores
-- Keywords: solidity, ethereum, contratos inteligentes
+- Estilo de conteúdo: Técnico
+- Nível de profundidade: Explicativo
+- Perfil do leitor: Desenvolvedores
+- Keywords (SEO): solidity, ethereum, contratos inteligentes
 
 **Clique em "Gerar Conteúdo" e pronto!**
 
