@@ -17,20 +17,28 @@ Este projeto utiliza a LLM **LLaMA 3 - 70B** via **LangChain + Groq** para gerar
 
 ## 📦 Instalação
 
-1. Clone o repositório:
+1. Instalação de bibliotecas:
 ```bash
-   git clone https://github.com/seuusuario/gerador-conteudo-blockchain.git
-   cd gerador-conteudo-blockchain
+  pip install langchain langchain-community langchain-groq
 ```
-
-2. Crie o arquivo .env na raiz do projeto com sua chave da API Groq
+2. Instalação do Streamlit:
 ```bash
-  GROQ_API_KEY="SUA CHAVE DO GROQ AQUI"
+pip install streamlit
 ```
-3. Execute o Aplicativo
+3. Para armazenamento das chaves:
 ```bash
-   streamlit run app.py
+pip install python-dotenv
 ```
+4. Criação do arquivo de ambiente: .env (o conteúdo será a API KEY):
+```bash
+GROQ_API_KEY="SUA CHAVE AOI AQUI"
+```
+<img src="/imagens/env.png" alt="Arquivo .env" width="300"/>
+5. Rodar no Streamlit pelo comando:
+```bash
+streamlit run app.py
+```
+6. Acessar as URLs disponíveis no terminal (Local ou Nettwork)
 
 ## 📌 Exemplo de Uso
 **Selecione**:
@@ -44,4 +52,4 @@ Este projeto utiliza a LLM **LLaMA 3 - 70B** via **LangChain + Groq** para gerar
 **Clique em "Gerar Conteúdo" e pronto!**
 
 ## 🧑‍🏫 Imagem do Aplicativo
-<img src="imagens/tela_inicial.png" alt="Tela Inicial" width="800"/>
+<img src="imagens/tela_inicial.png" alt="Tela Inicial" width="600"/>
